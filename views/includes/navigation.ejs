@@ -1,0 +1,33 @@
+<header class="main-header">
+    <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+            <li class="main-header__item">
+                <a class="<%= path === '/' ? 'active' : '' %>" href="/">Posts</a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/products' ? 'active' : '' %>" href="/products">Topics</a>
+            </li>
+            <li class="main-header__item">
+                    <a class="<%= path === '/admin/add-product' ? 'active' : '' %>" href="/admin/add-product">Create Post
+                    </a>
+            </li>
+            <li class="main-header__item">
+                    <a class="<%= path === '/orders' ? 'active' : '' %>" href="/orders">My Posts</a>
+                </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/admin/add-product' ? 'active' : '' %>" href="/admin/add-product">Admin
+                </a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/admin/register' ? 'active' : '' %>" href="/admin/register">Register
+                </a>
+            </li>
+        </ul>
+
+        <ul class="main-header__item-list">
+            <li class="main-header__item">
+                <a class="<%= path === '/login' ? 'active' : '' %>" href="/login"> Login </a>    
+            </li>
+        </ul>
+    </nav>
+</header>
